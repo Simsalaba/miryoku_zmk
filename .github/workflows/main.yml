@@ -48,7 +48,7 @@ on:
 
 jobs:
   main:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:stable
     strategy:
